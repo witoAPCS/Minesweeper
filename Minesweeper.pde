@@ -157,7 +157,7 @@ public class MSButton
         }
         if(mouseButton == LEFT){
           if(mines.contains(this)){ displayLosingMessage(); lock = true;}//display losing message
-          else if(countMines(this.myRow,this.myCol) > 0) this.myLabel = Integer.toString(countMines(myRow,myCol));
+          else if(countMines(this.myRow,this.myCol) > 0)  setLabel(countMines(myRow,myCol));
           else{
             for(int i = myRow-1; i <= myRow+1; i++){
             
