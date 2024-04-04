@@ -86,7 +86,7 @@ for(int i = 0; i < NUM_ROWS; i++){
  }
       buttons[4][3].myLabel = "womp";  
       
-         buttons[4][4].myLabel = "womp";  
+      buttons[4][4].myLabel = "womp";  
       buttons[4][5].myLabel = "you";
       buttons[5][4].myLabel = "lose!";
      buttons[00][01].myLabel = "lol";
@@ -95,7 +95,7 @@ for(int i = 0; i < NUM_ROWS; i++){
 public void displayWinningMessage()
 {
    
-  textSize(30);
+
   if(lock == false){
   buttons[4][1].setLabel("You");
   buttons[4][2].setLabel("are a");
